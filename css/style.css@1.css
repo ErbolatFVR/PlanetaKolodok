@@ -1856,7 +1856,9 @@ strong {
         order: 3
     }
 }
-
+.form__select{
+    background-color: #2A2A2A;
+}
 @media screen and (min-width:961px) {
     .container {
         max-width: 940px
@@ -1872,10 +1874,12 @@ strong {
     .steps__nav li button,
     .ui-selectmenu-button.ui-button {
         font-size: 18px
+
     }
 
     .fz20 {
-        font-size: 20px
+        font-size: 20px;
+
     }
 
     #modal-call {
