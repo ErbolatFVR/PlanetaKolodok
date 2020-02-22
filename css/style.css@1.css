@@ -272,6 +272,8 @@ strong {
     text-transform: uppercase;
     letter-spacing: .8px;
     line-height: 1.4;
+    background-color: rgba(0,0,0,0.5);
+    border-radius:30px;
 }
 
 .desc-1__sub-1{
@@ -1150,7 +1152,8 @@ strong {
 
 .order__desc {
     position: relative;
-    z-index: 3
+    z-index: 3;
+    margin-left:-50px
 }
 
 .order__title {
